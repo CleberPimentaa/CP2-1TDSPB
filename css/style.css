@@ -3,3 +3,42 @@ body{
     padding: 0;
     background-color: black;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height:500px;
+    width: 70%;
+    padding: 30px;
+    gap: 20px;
+}
+form input{
+    height: 33px;
+}
+form p{
+    margin-top: 0;
+}
+form button{
+    height: 40px ;
+    width: 90px;
+    border: none;
+    align-self: center;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: #3b3838;
+    color: black;
+}
+#inDiv{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+.inDivs{
+   display: flex;
+   flex-direction: column;
+   width: 32%;
+   gap: 5px;
+}
