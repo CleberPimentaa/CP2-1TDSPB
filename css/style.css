@@ -18,3 +18,47 @@ body{
     border: none;
     border-radius: 4px;
 }
+
+/*Estilização do cabeçalho*/
+#inCabecalho{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 57px;
+}
+header{
+    height: 57px;
+}
+#inLogo{
+    width: 214px;
+    height: 57px;
+}
+#inFace{
+    width: 40px;
+    height: 40px;
+}
+#inCarrinho{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 2px;
+}
+.inHo-St{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#inNav2{
+    height: 40px;
+}
+#inNav1{
+    display: flex;
+    align-items:flex-end;
+    gap: 25px;
+    margin-left: 20px;
+}
+#inStore{
+    text-decoration: none;
+}
