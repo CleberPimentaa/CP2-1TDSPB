@@ -2,4 +2,19 @@ body{
     margin: 0;
     padding: 0;
     background-color: black;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+#inTitle2{
+    color: rgb(41, 40, 40);
+}
+#inButton{
+    height:25px ;
+    width:100px ;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
 }
