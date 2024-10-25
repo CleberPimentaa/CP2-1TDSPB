@@ -75,6 +75,7 @@ form{
     width: 70%;
     padding: 30px;
     gap: 20px;
+    margin-bottom: 50px;
 }
 form input{
     height: 33px;
@@ -96,8 +97,12 @@ form button{
     color: white;
 }
 button:hover{
-    background-color: #3b3838;
+    background-color: #141414;
     color: black;
+}
+#inAtext{
+    color: black;
+    margin: 0;
 }
 #inDiv{
     display: flex;
@@ -111,7 +116,9 @@ button:hover{
    width: 32%;
    gap: 5px;
 }
-
+input{
+    border: solid 0.5px ;
+}
 /*css do rodape*/
 #imagemface{
     width: 30px ;
@@ -131,14 +138,29 @@ footer{
     flex-direction: column;
     justify-content: space-evenly;
     align-items:center ;
-    background-color: #3b3838;
+    background-color: #141414;
     height: 150px;
     width: 100%;
 }
+a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+    margin: 10px;
+}
  /*Etilização do conetudo*/
  
-p{
-    color: black;
+h1{
+    margin-top: 70px;
+}
+#inBotao{
+    height: 35px ;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    background-color:rgb(212, 116, 116) ;
+    color:white;
 }
 #foto1{
     width: 100%;
@@ -171,7 +193,8 @@ section{
 }
 .inCorTexto{
     color:white;
-    font-weight:550;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
 }
 article{
     display:flex;
@@ -191,3 +214,4 @@ main{
     justify-content: center;
     align-items: center;
 }
+/*Colocar bandeira*/
